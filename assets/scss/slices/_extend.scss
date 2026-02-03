@@ -1,0 +1,116 @@
+%transition{
+    transition: all ease-in-out .25s;
+}
+
+%cursor-pointer{
+    cursor: pointer;
+}
+
+%fw-300{
+    font-weight: 300;
+}
+
+%fw-400{
+    font-weight: 400;
+}
+
+%fw-500{
+    font-weight: 500;
+}
+
+%fw-600{
+    font-weight: 600;
+}
+
+%fw-700{
+    font-weight: 700;
+}
+
+%fw-800{
+    font-weight: 800;
+}
+
+%fw-900{
+    font-weight: 900;
+}
+
+%stacking-context{
+    isolation: isolate;
+}
+
+%full-width{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+%wh-full{
+    width: 100%;
+    height: 100%;
+}
+
+%common-pseudo{
+    content: '';
+    position: absolute;
+}
+
+%z-n1{
+    z-index: -1;
+}
+
+%overflow-hidden{
+    overflow: hidden;
+}
+
+%select-none{
+    user-select: none;
+    pointer-events: none;
+}
+
+%mx-auto{
+    margin-inline: auto;
+}
+
+%d-grid{
+    display: grid;
+}
+
+%d-flex{
+    display: flex;
+}
+
+%align-center{
+    align-items: center;
+}
+
+%space-between{
+    justify-content: space-between;
+}
+
+%flex-column{
+    flex-direction: column;
+}
+
+%flex-wrap{
+    flex-wrap: wrap;
+}
+
+%u-position-absolute{
+    position: absolute;
+}
+
+%u-position-relative{
+    position: relative;
+}
+
+%u-text-center{
+    text-align: center;
+}
+
+%u-spacing-inline{
+    padding-inline: clamp(1rem,1.5038vw + .6476rem,2rem);
+}
